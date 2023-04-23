@@ -12,3 +12,11 @@ echo $p
 fi
 done < all.headers > part2.headers
 ```
+
+### Add branch of forked remote to local copy of a git repositiory
+```
+git remote add <remote_name/username> https://github.com/username/repo.git
+git remote -v
+git fetch <remote_name/username>
+git checkout -b <my_name_for_their_branch> <remote_name/username>/<their_branch_name>
+```
