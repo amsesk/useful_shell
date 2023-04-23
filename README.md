@@ -20,3 +20,10 @@ git remote -v
 git fetch <remote_name/username>
 git checkout -b <my_name_for_their_branch> <remote_name/username>/<their_branch_name>
 ```
+
+### Set a device as manager/unmanaged with NetworkManager - useful when wanting to stop using Wifi connection
+```
+nmcli d #get device list
+nmcli d set <device> managed no
+nmcli d set <device> managed yes
+```
