@@ -13,6 +13,12 @@ fi
 done < all.headers > part2.headers
 ```
 
+### Init and update submodules in cloned repo
+```
+git submodule init
+git submodule update
+```
+
 ### Add branch of forked remote to local copy of a git repositiory
 ```
 git remote add <remote_name/username> https://github.com/username/repo.git
